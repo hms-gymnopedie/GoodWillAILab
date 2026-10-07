@@ -1,0 +1,40 @@
+<!doctype html>
+<html lang="ko">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>길을 잃은 온기 — Good Will AI Lab</title>
+  <meta name="robots" content="noindex">
+  <meta name="theme-color" content="#0e131f">
+  <script>
+    // github.io 프로젝트 페이지(/GoodWillAILab/)와 커스텀 도메인(/) 모두에서 경로가 맞도록 base 지정
+    (function () {
+      var base = location.hostname.endsWith('github.io') ? '/' + location.pathname.split('/')[1] + '/' : '/';
+      document.write('<base href="' + base + '">');
+    })();
+  </script>
+  <link rel="icon" href="assets/img/favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Newsreader:ital,opsz,wght@0,6..72,300..600;1,6..72,300..500&display=swap">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/dist/web/variable/pretendardvariable-dynamic-subset.min.css">
+  <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+  <div class="lumos" aria-hidden="true"></div>
+  <main class="hero" id="main">
+    <p class="eyebrow">404</p>
+    <h1 class="hero-title" data-i18n="title">길을 잃은 온기</h1>
+    <p class="hero-serif">The warmth wandered off.</p>
+    <p class="hero-sub" data-i18n="sub">찾으시는 페이지가 없어요. 처음으로 돌아가 천천히 다시 둘러보세요.</p>
+    <a class="hero-cta" href="./" data-i18n="cta">처음으로 <span aria-hidden="true">→</span></a>
+  </main>
+  <script type="application/json" id="i18n-en">
+  {
+    "_title": "Lost warmth — Good Will AI Lab",
+    "title": "Lost warmth",
+    "sub": "We couldn't find that page. Head back home and take your time looking around.",
+    "cta": "Back to home <span aria-hidden=\"true\">→</span>"
+  }
+  </script>
+  <script src="assets/js/main.js" defer></script>
+</body>
+</html>
